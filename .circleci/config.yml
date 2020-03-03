@@ -12,7 +12,7 @@ jobs:
           command:  pip install -r tests-requirements.txt # PUT YOUR BASH COMMAND HERE TO INSTALL THE TEST DEPENDENCIES
       - run:
           name: Run unit tests
-          command: pytest tests/test_data_access  # PUT YOUR COMMAND HERE TO RUN THE UNIT TESTS
+          command: pytest tests/*.py  # PUT YOUR COMMAND HERE TO RUN THE UNIT TESTS
 
 
 workflows:
