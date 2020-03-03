@@ -6,3 +6,4 @@ venv*
 *token.txt
 *dist
 venv_test/*
+venv_wqp/*
